@@ -22,6 +22,6 @@ urlpatterns = [
     path('', views.index),
     path('p32/', views.p32),
     path('p64/', views.p64),
-    path('solve/', views.solve),
+    path('solve/', views.datasolve),
     path('admin/', admin.site.urls),
 ]
